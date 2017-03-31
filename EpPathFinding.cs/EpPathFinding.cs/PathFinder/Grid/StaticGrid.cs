@@ -89,7 +89,7 @@ namespace EpPathFinding.cs
                 tNodes[widthTrav] = new Node[iHeight];
                 for (int heightTrav = 0; heightTrav < iHeight; heightTrav++)
                 {
-                    tNodes[widthTrav][heightTrav] = new Node(widthTrav, heightTrav, null);
+                    tNodes[widthTrav][heightTrav] = new Node(widthTrav, heightTrav, true);
                 }
             }
 
